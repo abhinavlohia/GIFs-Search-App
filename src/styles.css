@@ -1,0 +1,37 @@
+body {
+    background-color: #121212;
+}
+
+.app {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+.giphy-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    /* border: white solid; */
+}
+
+.giphy-block {
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: max-content;
+    width: 277px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.giphy-block img {
+    width: 113%;
+}
